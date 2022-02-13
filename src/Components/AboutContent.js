@@ -26,7 +26,7 @@ const AboutContent = () => {
           <img
             src="https://media.istockphoto.com/photos/male-medical-professional-is-confident-in-studio-picture-id1201439096?k=20&m=1201439096&s=170667a&w=0&h=aYuJxV4SkvfMRjuacN_UeOn4t4aixa08wpPZxvBa82w="
             alt="about us"
-            className="w-full py-0 md:mt-6 lg:mt-0"
+            className="w-full py-0 md:mt-6 lg:mt-0 rounded-md"
           />
         </div>
       </section>
@@ -36,7 +36,7 @@ const AboutContent = () => {
           <img
             src="https://www.moorelands.ca/wp-content/uploads/2019/11/iStock-1128786757.jpg"
             alt="donate us"
-            className="w-full py-0 md:py-4"
+            className="w-full py-0 md:py-4 rounded-md"
           />
         </div>
         <div className="w-full lg:w-1/2 ml-0 lg:ml-12 order-1 lg:order-2">
