@@ -8,7 +8,7 @@ import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
-    <footer className="w-full mx-auto py-6 bg-gray-800 md:py-14">
+    <footer className="w-full mx-auto py-6 bg-gray-800 md:py-8">
       <div className="flex flex-col sm:flex-row justify-around items-center text-white">
         <div className="flex justify-center items-center flex-wrap md:flex-nowrap">
           <div className="mx-4">
