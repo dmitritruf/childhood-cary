@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link to={link.link}>
             <li
               key={index}
-              className="md:inline-block md:ml-8 ml-6 md:my-0 my-16 text-white hover:text-yellow-300 hover:underline font-medium"
+              className="md:inline-block md:ml-8 ml-6 md:my-0 my-16 text-white hover:text-yellow-300 hover:underline font-medium text-sm md:text-sm lg:text-base"
             >
               <a href="/" className="text-md md:py-2 py-3 inline-block">
                 {link.name}

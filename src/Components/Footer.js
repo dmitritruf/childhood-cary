@@ -17,12 +17,10 @@ const Footer = () => {
             </h2>
             <div>
               <Link to="/about">
-                <li className="list-none text-sm text-gray-300">Who are we?</li>
+                <li className="list-none text-sm text-gray-300">Know more</li>
               </Link>
               <Link to="/about">
-                <li className="list-none text-sm text-gray-300">
-                  Our non-profit mission
-                </li>
+                <li className="list-none text-sm text-gray-300">Our mission</li>
               </Link>
             </div>
           </div>
@@ -50,7 +48,7 @@ const Footer = () => {
           </div>
           <div className="mx-4 py-3 md:py-0">
             <h2 className="text-md mb-2 border-b border-b-indigo-500 py-1 ">
-              Terms and Conditions
+              T & C
             </h2>
             <div>
               <li className="list-none text-sm text-gray-300">
