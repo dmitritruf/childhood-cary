@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Navbar from "./Navbar";
-// import Ads from "./Ads";
+import Ads from "./Ads";
 import Main from "./Main";
 import Community from "./Community";
 import Cta from "./Cta";
@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <Header />
       <Navbar />
-      {/* <Ads /> */}
+      <Ads />
       <Main />
       <Community />
       <Cta />
