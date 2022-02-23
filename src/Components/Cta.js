@@ -1,6 +1,8 @@
 import React from "react";
-import { GrContact } from "react-icons/gr";
+// react router
 import { Link } from "react-router-dom";
+// react icons
+import { GrContact } from "react-icons/gr";
 
 const Cta = () => {
   return (

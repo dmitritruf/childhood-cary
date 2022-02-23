@@ -1,4 +1,5 @@
 import React from "react";
+// react icons
 import { IoSendSharp } from "react-icons/io5";
 
 const Form = ({ handleSubmit }) => {

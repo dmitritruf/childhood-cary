@@ -1,10 +1,15 @@
 import React from "react";
+// components
+import Copyright from "./Copyright";
+
+// react icons
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
+
+// react router
 import { Link } from "react-router-dom";
-import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
