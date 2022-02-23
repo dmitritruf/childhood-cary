@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+// react router
+import { Link } from "react-router-dom";
+// images
 import logo from "../Assets/logo.png";
 import openMenu from "../Assets/open.svg";
 import closeMenu from "../Assets/close.svg";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

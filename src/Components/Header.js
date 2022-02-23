@@ -1,4 +1,5 @@
 import React from "react";
+// react icons
 import { MdLocationOn } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
