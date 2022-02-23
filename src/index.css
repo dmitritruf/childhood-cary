@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/*  Swiper JS styles */
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none;
 }
+
+/*  Custom scrollbar */
 
 html::-webkit-scrollbar {
   width: 0.5vw;

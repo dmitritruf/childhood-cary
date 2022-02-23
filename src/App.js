@@ -1,9 +1,12 @@
+// pages
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import About from "./pages/About";
 import Donate from "./pages/Donate";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+
+// react router
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
