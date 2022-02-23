@@ -56,7 +56,7 @@ const AboutContent = () => {
             <Link to="/donate">
               <p
                 href="/"
-                className="inline-block py-3 px-4 bg-indigo-500 hover:bg-indigo-400 text-white font-medium border-none rounded-md"
+                className="inline-block py-3 px-4 bg-yellow-400 hover:bg-yellow-300 text-white font-medium border-none rounded-md"
               >
                 Donate
               </p>

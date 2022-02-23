@@ -2,17 +2,11 @@ import React from "react";
 import { MdLocationOn } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebook,
-  FaYoutubeSquare,
-  FaSkype,
-} from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="h-6 text-sm  lg:items-center lg:justify-around hidden lg:flex bg-gray-800 text-slate-300">
+    <header className="h-8 text-sm  lg:items-center lg:justify-around hidden lg:flex bg-gray-800 text-gray-300">
       <div className="flex items-center justify-between">
         <div className="flex items-center justify-center mr-8 cursor-pointer hover:text-yellow-200">
           <MdLocationOn />
@@ -46,8 +40,6 @@ const Header = () => {
         <FaTwitter className="mr-3 cursor-pointer hover:text-yellow-200" />
         <FaInstagram className="mr-3 cursor-pointer hover:text-yellow-200" />
         <FaFacebook className="mr-3 cursor-pointer hover:text-yellow-200" />
-        <FaYoutubeSquare className="mr-3 cursor-pointer hover:text-yellow-200" />
-        <FaSkype className="mr-3 cursor-pointer hover:text-yellow-200" />
       </div>
     </header>
   );

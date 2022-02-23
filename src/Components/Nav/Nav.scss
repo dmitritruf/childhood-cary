@@ -1,0 +1,80 @@
+.nav {
+  position: static;
+  width: 100vw;
+  background-color: #4f46e5;
+  color: #fff;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+
+    &logo {
+      width: 6rem;
+      margin-right: auto;
+      margin-left: 1rem;
+    }
+
+    &item {
+      font-weight: bold;
+      position: relative;
+      padding: 1.5rem 1rem;
+      cursor: pointer;
+      margin-right: 1.8rem;
+
+      &:hover ul,
+      &:focus ul {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &drop {
+        position: absolute;
+        top: 3rem;
+        left: -3rem;
+        z-index: 30;
+        box-shadow: 0 0 2px rgb(228, 222, 222);
+        background-color: #fff;
+        color: #2c2c2c;
+        border-radius: 4px;
+        width: 15rem;
+        padding: 0.6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 200ms ease-in-out;
+
+        &.last__item {
+          width: 10rem;
+        }
+
+        li {
+          padding: 0.5rem;
+          border-radius: 4px;
+          font-weight: 500;
+          font-size: 0.9rem;
+
+          &:hover,
+          &:focus {
+            background-color: rgb(252, 238, 219);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__listitem {
+    display: none;
+  }
+
+  .nav__listlogo {
+    width: 4rem;
+    margin-left: 0;
+  }
+}

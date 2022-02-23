@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
-    <main className="bg-indigo-600">
+    <main className="bg-indigo-600  ">
       <div className="flex flex-col md:flex-row items-center py-8 md:py-24 lg:py-28 px-8 md:px-6 lg:px-4 ">
         <div className="w-full lg:w-1/2 text-white flex flex-col items-center">
           <div className="w-full lg:w-3/4">

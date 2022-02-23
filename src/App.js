@@ -1,9 +1,9 @@
-import Home from "./Components/Home";
-import Team from "./Components/Team";
-import About from "./Components/About";
-import Donate from "./Components/Donate";
-import Contact from "./Components/Contact";
-import Error from "./Components/Error";
+import Home from "./pages/Home";
+import Team from "./pages/Team";
+import About from "./pages/About";
+import Donate from "./pages/Donate";
+import Contact from "./pages/Contact";
+import Error from "./pages/Error";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {

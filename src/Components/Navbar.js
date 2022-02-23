@@ -20,7 +20,7 @@ const Navbar = () => {
         <img
           src={logo}
           alt="logo"
-          className="w-12 md:w-14 mx-10 md:mx-20 my-1"
+          className="w-16 h-20 object-contain md:w-22 lg:w-24 mx-10 md:mx-20 pb-2"
         />
       </Link>
       <div
@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link to={link.link}>
             <li
               key={index}
-              className="md:inline-block md:ml-8 ml-6 md:my-0 my-16 text-white hover:text-yellow-300 hover:underline font-medium text-sm md:text-sm lg:text-base"
+              className="md:inline-block md:mx-8 mx-6 md:my-0 my-16 text-white hover:text-yellow-300 hover:underline font-medium text-sm md:text-sm lg:text-base"
             >
               <a href="/" className="text-md md:py-2 py-3 inline-block">
                 {link.name}
