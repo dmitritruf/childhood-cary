@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// components
 import Form from "./Form";
 import ThankyouMessage from "./ThankyouMessage";
 
@@ -20,8 +21,9 @@ const ContactPage = () => {
           Lets create something better together! ✨🙌
         </p>
       </div>
-
+      {/* Render the form component only if !sent */}
       {!sent && <Form handleSubmit={handleSubmit} />}
+      {/* Render thankyou message only if sent */}
       {sent && <ThankyouMessage />}
     </div>
   );
