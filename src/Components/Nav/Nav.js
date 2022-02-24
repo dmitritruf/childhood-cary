@@ -66,6 +66,9 @@ const Nav = () => {
                 <Link to="/about">
                   <li>About Us</li>
                 </Link>
+                <Link to="/team">
+                  <li>Our Team</li>
+                </Link>
                 <Link to="/contact">
                   <li>Contact Us</li>
                 </Link>

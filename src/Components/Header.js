@@ -1,8 +1,8 @@
 import React from "react";
 // react icons
 import { MdLocationOn } from "react-icons/md";
-import { BsTelephone } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
+import { IoMdMail } from "react-icons/io";
+import { IoCall } from "react-icons/io5";
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Header = () => {
@@ -21,13 +21,13 @@ const Header = () => {
           </a>
         </div>
         <div className="flex items-center justify-center mr-8 cursor-pointer hover:text-yellow-200">
-          <BsTelephone />
+          <IoCall />
           <a href="tel:7767018905" rel="noreferrer" className="ml-2">
             +91-7767018905
           </a>
         </div>
         <div className="flex items-center justify-center cursor-pointer hover:text-yellow-200">
-          <HiOutlineMail />
+          <IoMdMail />
           <a
             href="mailto:eccpathfinders@gmail.com"
             rel="noreferrer"

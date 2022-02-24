@@ -74,8 +74,15 @@ const Footer = () => {
               About
             </h2>
             <div>
-              <li className="list-none text-sm text-white">About Us</li>
-              <li className="list-none text-sm text-white">Contact Us</li>
+              <Link to="/about">
+                <li className="list-none text-sm text-white">About Us</li>
+              </Link>
+              <Link to="/team">
+                <li className="list-none text-sm text-white">Our Team</li>
+              </Link>
+              <Link to="/contact">
+                <li className="list-none text-sm text-white">Contact Us</li>
+              </Link>
             </div>
           </div>
         </div>

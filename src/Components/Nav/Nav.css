@@ -21,7 +21,7 @@
 .nav__listlogo {
   width: 6rem;
   margin-right: auto;
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .nav__listitem {
@@ -76,7 +76,7 @@
 }
 
 .nav__listitemdrop li:hover, .nav__listitemdrop li:focus {
-  background-color: #fceedb;
+  background-color: #f5f3f2;
 }
 
 @media screen and (max-width: 768px) {

@@ -7,13 +7,13 @@ const AboutContent = () => {
       <section className="w-full flex flex-col lg:flex-row items-center py-10 lg:pt-28 px-8 md:px-32 lg:px-38">
         <div className="w-full lg:w-1/2 mr-0 lg:mr-10">
           <p className="text-2xl lg:text-3xl">❤️✌️</p>
-          <h2 className="w-full text-xl md:text-2xl lg:text-3xl font-bold py-2">
+          <h2 className="w-full text-xl md:text-3xl lg:text-4xl font-bold py-2">
             Who We Are ?
           </h2>
-          <h4 className="w-full text-md md:text-md lg:text-md font-medium py-2">
+          <h4 className="w-full text-sm md:text-md lg:text-lg  font-medium py-2">
             We are here not for income, but for outcome
           </h4>
-          <p className="w-full text-sm md:text-md lg:text-base  font-light text-slate-500 py-2">
+          <p className="w-full text-sm md:text-md lg:text-lg   font-light text-slate-500 py-2">
             Lorem Aenean nec quam efficitur, volutpat felis quis, commodo lacus.
             Morbi feugiat orci vel urna semper, ac tempus nunc luctus. Etiam
             quis placerat purus. Nulla fringilla varius lacus, eget eleifend
@@ -41,10 +41,10 @@ const AboutContent = () => {
         </div>
         <div className="w-full lg:w-1/2 ml-0 lg:ml-12 order-1 lg:order-2">
           <p className="text-2xl lg:text-4xl">🙌✨</p>
-          <h2 className="w-full text-xl md:text-3xl font-bold py-2">
+          <h2 className="w-full text-xl md:text-3xl lg:text-4xl font-bold py-2">
             Support our non-profit mission 👏
           </h2>
-          <p className="w-full text-sm md:text-md lg:text-base  font-light text-slate-500 py-2">
+          <p className="w-full text-sm md:text-md lg:text-lg  font-light text-slate-500 py-2">
             Lorem Aenean nec quam efficitur, volutpat felis quis, commodo lacus.
             Morbi feugiat orci vel urna semper, ac tempus nunc luctus. Etiam
             quis placerat purus. Nulla fringilla varius lacus, eget eleifend
@@ -52,7 +52,7 @@ const AboutContent = () => {
             semper in. Aliquam elit lectus, tincidunt eget vulputate vel,
             faucibus vitae elit.
           </p>
-          <div className="inline-block shadow mt-5 lg:mt-10   rounded-md">
+          <div className="inline-block shadow mt-5 lg:mt-6   rounded-md">
             <Link to="/donate">
               <p
                 href="/"

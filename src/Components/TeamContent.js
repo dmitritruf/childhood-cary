@@ -6,10 +6,10 @@ const TeamContent = () => {
       <div className="container w-full px-4 mx-auto">
         <div className="flex flex-wrap justify-center text-center mb-16 ">
           <div className="w-full lg:w-6/12 px-4">
-            <h1 className="text-gray-900 text-2xl md:text-2xl lg:text-3xl font-bold mb-8">
+            <h1 className="text-gray-900 text-xl md:text-3xl lg:text-4xl font-bold mb-4">
               Meet our Team
             </h1>
-            <p className="text-gray-700 text-lg font-light">
+            <p className="text-gray-700 text-lg md:text-xl  font-light">
               This wonderful people make it all possible👏👏
             </p>
           </div>
