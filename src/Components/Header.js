@@ -7,7 +7,7 @@ import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="h-8 text-sm  lg:items-center lg:justify-around hidden lg:flex bg-gray-800 text-gray-300">
+    <header className="h-8 text-sm  lg:items-center lg:justify-around hidden lg:flex bg-gray-800 text-white">
       <div className="flex items-center justify-between">
         <div className="flex items-center justify-center mr-8 cursor-pointer hover:text-yellow-200">
           <MdLocationOn />

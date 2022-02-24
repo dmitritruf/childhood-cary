@@ -11,7 +11,7 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="w-full">
-      <nav className="nav py-6 md:py-2">
+      <nav className="nav py-6 md:py-2 bg-yellow-300 ">
         <ul className="nav__list">
           <li className="nav__listlogo">
             <Link to="/">
