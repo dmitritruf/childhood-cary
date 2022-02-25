@@ -16,9 +16,9 @@ const Cta = () => {
         </div>
         <p className="text-base leading-normal font-medium text-gray-100 px-4">
           Call{" "}
-          <a href="tel:7767018905">
+          <a href="tel:9940595094">
             <strong className="px-3 hover:text-yellow-300 underline decoration-1">
-              +91-7767018905
+              +91-9940595094
             </strong>{" "}
           </a>{" "}
           or{" "}
