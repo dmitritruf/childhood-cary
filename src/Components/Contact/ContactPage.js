@@ -17,14 +17,14 @@ const ContactPage = () => {
         <h2 className="w-full text-xl md:text-3xl lg:text-4xl font-bold">
           Leave us a message
         </h2>
-        <p className="w-full text-md md:text-lg font-medium text-slate-500 mt-2">
+        <p className="w-full text-md md:text-lg font-medium text-slate-500 py-2">
           Lets create something better together! ✨🙌
         </p>
-        {/* <img
-          src="https://static.vecteezy.com/system/resources/previews/004/968/628/original/send-message-newsletters-pop-up-email-subscription-concept-illustration-flat-design-eps10-modern-graphic-element-for-landing-page-empty-state-ui-infographic-icon-form-etc-vector.jpg"
+        <img
+          src="https://thumbs.dreamstime.com/b/d-render-happy-doctor-african-cartoon-character-shows-smart-phone-device-blank-screen-clip-art-isolated-yellow-background-225530806.jpg"
           alt="contact"
-          className="h-1/2 w-1/2 object-contain"
-        /> */}
+          className="h-2/3 w-2/3 object-contain rounded-md"
+        />
       </div>
       {/* Render the form component only if !sent */}
       {!sent && <Form handleSubmit={handleSubmit} />}

@@ -1,10 +1,10 @@
 import React from "react";
 
 // components
-import Header from "../Components/Header";
+import Header from "../Components/Header/Header";
 import Nav from "../Components/Nav/Nav";
-import TeamContent from "../Components/TeamContent";
-import Footer from "../Components/Footer";
+import TeamContent from "../Components/Team/TeamContent";
+import Footer from "../Components/Footer/Footer";
 
 const Team = () => {
   return (

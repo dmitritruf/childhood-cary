@@ -1,9 +1,9 @@
 import React from "react";
 
 // components
-import Header from "../Components/Header";
+import Header from "../Components/Header/Header";
 import Nav from "../Components/Nav/Nav";
-import DonateContent from "../Components/DonateContent";
+import DonateContent from "../Components/Donate/DonateContent";
 
 const Donate = () => {
   return (
