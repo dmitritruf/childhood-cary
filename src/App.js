@@ -10,12 +10,12 @@ import Error from "./pages/Error";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 // scroll to top
-// import ScrollToTop from "./Components/ScrollToTop";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <Router>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <section className=" h-screen font-DMSans mx-auto max-w-screen-2xl">
         <Routes>
           <Route path="/" element={<Home />} />
