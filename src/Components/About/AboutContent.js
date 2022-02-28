@@ -42,7 +42,7 @@ const AboutContent = () => {
         <div className="w-full lg:w-1/2 ml-0 lg:ml-12 order-1 lg:order-2">
           {/* <p className="text-2xl lg:text-4xl">🙌✨</p> */}
           <h2 className="w-full text-xl md:text-3xl lg:text-4xl font-bold py-2">
-            <span className="text-indigo-500">Support</span> our non-profit
+            Support our <span className="text-indigo-600">non-profit </span>
             mission 👏
           </h2>
           <p className="w-full text-sm md:text-md lg:text-lg  font-light text-slate-500 py-2">
