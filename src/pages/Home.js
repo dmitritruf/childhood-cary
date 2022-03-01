@@ -3,7 +3,7 @@ import React from "react";
 // components
 import Header from "../Components/Header/Header";
 import Nav from "../Components/Nav/Nav";
-// import Ad from "../Components/Ads/Ad";
+import Ad from "../Components/Ads/Ad";
 // import Navbar from "./Navbar";
 // import Ads from "../Components/Ads";
 import Main from "../Components/Home/Main";
@@ -16,7 +16,7 @@ const Home = () => {
     <div className="overflow-hidden">
       <Header />
       <Nav />
-      {/* <Ad /> */}
+      <Ad />
       {/* <Navbar /> */}
       {/* <Ads /> */}
       <Main />
